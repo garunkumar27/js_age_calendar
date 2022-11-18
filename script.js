@@ -1,7 +1,7 @@
 document.getElementById("trigger").addEventListener('click', cal)
     function cal(){
         const update= function () {
-            let dob = document.querySelector("#dob").value,
+            let dob = document.getElementById("dob").value,
                 day = new Date(dob),
                 time = day.getTime(),
                 today = new Date(),
